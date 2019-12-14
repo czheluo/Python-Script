@@ -8,7 +8,7 @@ from scipy.cluster import hierarchy as sch
 from matplotlib import pyplot as plt
 import matplotlib.colors as mcolors  # used in heatMap
 from colorsys import hls_to_rgb
-__author__ = 'gdq'
+__author__ = 'meng.luo'
 
 
 def cluster_heatmap(sample_values, expect_group=None, fig_name='HeatCluster', fig_size=(8, 9),
