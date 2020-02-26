@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# __author__ = 'liubinxu'
+# __author__ = 'MENGLUO'
 import os
 import shutil
 from biocluster.core.exceptions import OptionError
@@ -14,8 +14,8 @@ class AssembleEvalutionModule(Module):
     """
     拼接以及新转录本预测
     version v1.0.1
-    author: liubinxu
-    last_modify: 2017.12.15
+    author: MENGLUO
+    last_modify: 2020.2.26
     """
     def __init__(self, work_id):
         super(AssembleEvalutionModule, self).__init__(work_id)
