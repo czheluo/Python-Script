@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# __author__ = 'HONGDONG'
-# last modify 2018080907
+# __author__ = 'MENGLUO'
+# last modify 20200228
 
 from biocluster.agent import Agent
 from biocluster.tool import Tool
