@@ -23,6 +23,7 @@ parser = argparse.ArgumentParser(description="upload files to baiducloud")
 parser.add_argument("-i", "--infile", type=str, help="absolute path", required=True)
 parser.add_argument("-n", "--dirname", type=str, help="tagert dir name, English name for best", required=True)
 args = parser.parse_args()
+
 """
 bypy info
 python uploaddatatobaiducloud -i /mnt/ilustre/centos7users/meng.luo/project/zhoulonghua_MJ20190922067/workflow_results/Result/ -n zhoulonghua
@@ -49,7 +50,7 @@ class Upload(object):
         self.medpath = medpath.rstrip('/') + '/'
         self.newdir, self.filelist = '', []
         self.bp = ByPy()
-    
+        
     def run(self):
         """
         该方法是遍历文件夹中所有的文件，然后逐一进行上传
