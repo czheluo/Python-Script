@@ -19,7 +19,8 @@ parser.add_argument('-i', '--fa',required=True, help=' a fasta file ')
 parser.add_argument('-o', '--org',required=True, help='org file name')
 args = parser.parse_args()
 '''
-python get.name.py -i mature.fa -o Mus
+python get.name.py -i mature.fa -o Arabidopsis
+ 
 '''
 
 with open(args.fa) as fa:
