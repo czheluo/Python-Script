@@ -1,0 +1,6 @@
+##############实际应用练习##############
+circRNA流程的初始定量结果只有reads count ，要自己标准化为表达值SRPBM，需要根据每个样本的比对结果转换，计算公式为：
+	srpbm = count * 1000000000/Mapped_seq_num
+
+##############脚本命令示例##############
+python merge-SRPBMmatrix.py -m align_stat.xls -i circRNA.count.xls -o srpbm.xls
