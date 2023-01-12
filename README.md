@@ -2,7 +2,7 @@
 Python Script for work
 
 # install 
-$bash Miniconda3-latest-Linux-x86_64.sh -p Miniconda3
+$ bash Miniconda3-latest-Linux-x86_64.sh -p Miniconda3
 
 $~/miniconda3/bin/pip3 install nf-core
 
