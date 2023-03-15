@@ -8,3 +8,7 @@ $~/miniconda3/bin/pip3 install nf-core
 
 $ ~/miniconda3/bin/pip3  install scvi-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+# conda env
+$source /mnt/ilustre/users/meng.luo/miniconda3/bin/activate
+$ conda activate kobas
+
