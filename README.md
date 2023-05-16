@@ -12,5 +12,6 @@ $ ~/miniconda3/bin/pip3  install scvi-tools -i https://pypi.tuna.tsinghua.edu.cn
 $source /mnt/ilustre/users/meng.luo/miniconda3/bin/activate
 $ conda activate kobas
 
-#conda error 
+#conda activate error 
+
 $ source /mnt/ilustre/users/meng.luo/miniconda3/bin/activate & conda activate darts 
